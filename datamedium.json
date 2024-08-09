@@ -1,0 +1,77 @@
+[
+  {
+    "id": 0,
+    "english": "work",
+    "french": "travail"
+  },
+  {
+    "id": 1,
+    "english": "check",
+    "french": "addition"
+  },
+  {
+    "id": 2,
+    "english": "house",
+    "french": "maison"
+  },
+  {
+    "id": 3,
+    "english": "book",
+    "french": "livre"
+  },
+  {
+    "id": 4,
+    "english": "friend",
+    "french": "copain"
+  },
+  {
+    "id": 5,
+    "english": "forgotten",
+    "french": "oublie"
+  },
+  {
+    "id": 6,
+    "english": "yesterday",
+    "french": "hier"
+  },
+  {
+    "id": 7,
+    "english": "low",
+    "french": "bas"
+  },
+  {
+    "id": 8,
+    "english": "safety",
+    "french": "securite"
+  },
+  {
+    "id": 9,
+    "english": "still",
+    "french": "graine"
+  },
+  {
+    "id": 10,
+    "english": "to spell",
+    "french": "epeler"
+  },
+  {
+    "id": 11,
+    "english": "increase",
+    "french": "hausse"
+  },
+  {
+    "id": 12,
+    "english": "above",
+    "french": "au-dessus"
+  },
+  {
+    "id": 13,
+    "english": "good",
+    "french": "bon"
+  },
+  {
+    "id": 14,
+    "english": "chair",
+    "french": "chaise"
+  }
+]

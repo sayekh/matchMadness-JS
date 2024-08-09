@@ -1,0 +1,102 @@
+[
+  {
+    "id": 0,
+    "english": "you",
+    "french": "toi"
+  },
+  {
+    "id": 1,
+    "english": "hi",
+    "french": "salut"
+  },
+  {
+    "id": 2,
+    "english": "boy",
+    "french": "garcon"
+  },
+  {
+    "id": 3,
+    "english": "and",
+    "french": "et"
+  },
+  {
+    "id": 4,
+    "english": "how",
+    "french": "comment"
+  },
+  {
+    "id": 5,
+    "english": "my",
+    "french": "mes"
+  },
+  {
+    "id": 6,
+    "english": "dog",
+    "french": "chien"
+  },
+  {
+    "id": 7,
+    "english": "a",
+    "french": "un"
+  },
+  {
+    "id": 8,
+    "english": "cat",
+    "french": "chat"
+  },
+  {
+    "id": 9,
+    "english": "I",
+    "french": "je"
+  },
+  {
+    "id": 10,
+    "english": "man",
+    "french": "homme"
+  },
+  {
+    "id": 11,
+    "english": "well",
+    "french": "bien"
+  },
+  {
+    "id": 12,
+    "english": "hello",
+    "french": "bonjour"
+  },
+  {
+    "id": 13,
+    "english": "he",
+    "french": "il"
+  },
+  {
+    "id": 14,
+    "english": "girl",
+    "french": "fille"
+  },
+  {
+    "id": 15,
+    "english": "she",
+    "french": "elle"
+  },
+  {
+    "id": 16,
+    "english": "no",
+    "french": "non"
+  },
+  {
+    "id": 17,
+    "english": "here",
+    "french": "ici"
+  },
+  {
+    "id": 18,
+    "english": "italy",
+    "french": "italie"
+  },
+  {
+    "id": 19,
+    "english": "a lot",
+    "french": "beaucoup"
+  }
+]
