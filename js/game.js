@@ -32,7 +32,7 @@ const loadWords = async () => {
     }, 2000);
     setTimeout(() => {
       errorText.style.display = "block";
-    }, 2000);
+    }, 1000);
   }
 };
 const start = () => {
@@ -101,7 +101,7 @@ const checkFAnswer = (event) => {
     event.target.classList.add("incorrect");
     setTimeout(() => {
       event.target.classList.remove("incorrect");
-    }, 5800);
+    }, 800);
   }
 };
 const removeWord = () => {
