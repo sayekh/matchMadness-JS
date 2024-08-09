@@ -1,0 +1,36 @@
+h3{
+    font-size: 2.2rem;
+    color: #f74747;
+    margin: 70px;
+}
+button{
+    background-color: #fff;
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    color: #f74747;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    &:hover{
+        background-color: #f74747cc;
+        color: #fff;
+    }
+}
+a{
+    color: #f74747;
+    text-decoration: none;
+    background-color: #fcf3f3;
+    border: 2px solid #f74747;
+    border-radius: 15px;
+    padding: 8px 15px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    &:hover{
+        background-color: #f74747;
+        color: #fff;
+    }
+}

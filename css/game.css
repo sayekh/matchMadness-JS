@@ -1,0 +1,115 @@
+#loader {
+  width: 100px;
+  height: 100px;
+  border: 7px solid #da1661;
+  border-bottom-color: transparent;
+  border-top-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  animation: rotation 1.4s ease infinite;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+body{
+  padding-top: 40px;
+}
+#container {
+  display: none;
+  width: 500px;
+  position: relative;
+  /* background-color: #fe6681; */
+}
+.header {
+  display: flex;
+  justify-content: center;
+  & div {
+    display: flex;
+    align-items: center;
+    & p {
+      color: #f74747;
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-right: 10px;
+    }
+    & span {
+      display: inline-block;
+      background-color: #fff;
+      width: 25px;
+      height: 25px;
+      line-height: 25px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: #f74747;
+      border-radius: 4px;
+    }
+  }
+}
+#box {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  div{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 40px 30px;
+  & button {
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    &:hover {
+      background-color: #e0ffe2;
+    }
+    &.correct {
+      background-color: #81e98a;
+      &:hover {
+        background-color:#81e98a;
+      }
+    }
+    &.incorrect {
+      background-color: #fd738d;
+      &:hover {
+        background-color: #fd738d;
+      }
+    }
+  }
+  }
+}
+#next-button,
+#finish-button {
+  color: #f74747;
+  font-size: 1.1rem;
+  background-color: #fbedef;
+  border: 2px solid #f74747;
+  border-radius: 15px;
+  padding: 8px 20px;
+  margin: 20px 20px 0 0;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+  &:hover {
+    background-color: #f74747cc;
+    color: #fff;
+  }
+}
+#next-button{
+    position: absolute;
+    right: -20px;
+}
+
+#error{
+  display: none;
+}
